@@ -37,7 +37,8 @@
     text-align: center;
   }
 
-  .navbar {
+  /* header */
+   .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,12 +46,37 @@
     height: 6rem;
     padding: 0 1.5rem;
   }
-  
+
   .name span {
     color: var(--yellow);
     font-size: 24px;
     font-weight: bold;
+    margin: 0 0 0 2rem;
   }
+  .colla{
+    padding: 0 0 0 2rem;
+  }
+  #navv a {
+    color:var(--white);
+    text-transform: uppercase;
+    font-size: 14px;
+    /* font-weight: lighter; */
+    padding: 1rem;
+  }
+
+  .talkbtn{
+    text-decoration: none;
+    position: absolute;
+    right: 8%;
+    height: 40px;
+    width: 100px;
+    background-color: var(--yellow);
+    border-radius:10px;
+    border: 2px solid var(--white);
+    color: white!;     
+} 
+  
+  /*
   
   .nav {
     display: inline;
@@ -93,7 +119,7 @@
     border: 2px solid var(--white);
     color: white;   
     
-}
+} */
 
 /* Hero */
 .hero {
@@ -156,7 +182,7 @@ line-height: 2.5rem;
   border: 2px solid var(--yellow);
   background-color: var(--dark-blue);
   border-radius: 8px;
-  width: 25%;
+  width: 250px;
   padding: 1rem;
   }
   
@@ -289,8 +315,7 @@ padding: .8rem;
 background-color: var(--yellow);
 border: none;
 border-radius: 8px;
-width: 15%;
-/* height: 3.5rem; */
+width: 20%;
 padding: 1rem;
 margin: 1rem .5rem;
 
@@ -386,8 +411,17 @@ color: var(--green);
   
   .navbar {
     padding: 0 1rem;
+    display: block;
   }
   
+  .colla{
+    background-color: var(--yellow);
+  }
+  .talkbtn{
+    display: none;
+}
+  
+  /* }
   .nav {
     display: none;
   }
@@ -402,14 +436,9 @@ color: var(--green);
   
   .mobile-icon i:hover {
     color: var(--green);
-  }
+  } */
 
-  .talkbtn{
-    display: none;
-    /* right: 20%;
-    height: 30px;
-    width: 80px;   */
-}
+ 
 /* hero */
 .hero {
   height: 40%;
@@ -423,7 +452,7 @@ color: var(--green);
   
   .profession {
   padding-top: 1rem;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.5rem;
   
   }
@@ -436,7 +465,7 @@ color: var(--green);
     }
     
     .btn button {
-    width: 60%;
+    width: 110%;
     padding: 1rem;
     }
 
